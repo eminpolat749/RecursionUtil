@@ -10,7 +10,7 @@ import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class RecursionFibonacciTest {
+public class RecursionUtilFibonacciTest {
     private final ResultInfo m_resultInfo;
 
     private static class ResultInfo {
@@ -24,7 +24,7 @@ public class RecursionFibonacciTest {
         }
     }
 
-    public RecursionFibonacciTest(ResultInfo resultInfo)
+    public RecursionUtilFibonacciTest(ResultInfo resultInfo)
     {
         m_resultInfo = resultInfo;
     }
