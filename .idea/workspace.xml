@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfee9e5-c916-4b71-9c6f-1950596d09ae" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="9cfee9e5-c916-4b71-9c6f-1950596d09ae" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/csystem/util/recursion/RecursionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csystem/util/recursion/RecursionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/csystem/util/recursion/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csystem/util/recursion/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/csystem/util/recursion/RecursionFibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/csystem/util/recursion/RecursionUtilFibonacciTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/csystem/util/recursion/UtilPrintCollatzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/csystem/util/recursion/UtilPrintCollatzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/csystem/util/recursion/RecursionUtilWriteReverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/csystem/util/recursion/RecursionUtilWriteReverseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -45,8 +45,13 @@
     "last_opened_file_path": "/Users/emin/Desktop/Java-App-Projects/codingChallenges/CodingChallenges"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UtilPrintCollatzTest">
-    <configuration name="RecursionUtilFibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.csystem.util.recursion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RecursionUtilWriteReverseTest">
+    <configuration name="RecursionUtilFactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingChallenges" />
       <extension name="coverage">
         <pattern>
@@ -55,13 +60,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.csystem.util.recursion" />
-      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.RecursionUtilFibonacciTest" />
+      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.RecursionUtilFactorialTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionUtilPrintCollatzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionUtilReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingChallenges" />
       <extension name="coverage">
         <pattern>
@@ -70,43 +75,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.csystem.util.recursion" />
-      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.RecursionUtilPrintCollatzTest" />
+      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.RecursionUtilReverseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilFactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GenericLib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.csystem.util.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.csystem.util.recursion" />
-      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.UtilFactorialTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilFactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GenericLib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.csystem.util.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.csystem.util.recursion" />
-      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.UtilFactorialTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilPrintCollatzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionUtilWriteReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingChallenges" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +90,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.csystem.util.recursion" />
-      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.UtilPrintCollatzTest" />
+      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.RecursionUtilWriteReverseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csystem.util.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.csystem.util.recursion" />
+      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.UtilReverseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilWriteReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csystem.util.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.csystem.util.recursion" />
+      <option name="MAIN_CLASS_NAME" value="org.csystem.util.recursion.UtilWriteReverseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UtilPrintCollatzTest" />
-        <item itemvalue="JUnit.RecursionUtilPrintCollatzTest" />
-        <item itemvalue="JUnit.RecursionUtilFibonacciTest" />
-        <item itemvalue="JUnit.UtilFactorialTest (1)" />
-        <item itemvalue="JUnit.UtilFactorialTest" />
+        <item itemvalue="JUnit.RecursionUtilWriteReverseTest" />
+        <item itemvalue="JUnit.UtilWriteReverseTest" />
+        <item itemvalue="JUnit.RecursionUtilReverseTest" />
+        <item itemvalue="JUnit.UtilReverseTest" />
+        <item itemvalue="JUnit.RecursionUtilFactorialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,11 +166,20 @@
       <option name="project" value="LOCAL" />
       <updated>1696415525240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1696439474422</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696439474422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
