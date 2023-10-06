@@ -35,6 +35,13 @@ public class RecursionUtil {
         writeReverseRecur(str, val + 1);
         Console.write(str.charAt(val));
     }
+    private static void writeNumberRecur(int val, int radix)
+    {
+        if (val / radix != 0)
+            writeNumberRecur(val / radix, radix);
+
+        System.out.write((char)((val % radix >= 10 ? 'A' - 10 : '0') + val % radix));
+    }
     public static long factorial(int n)
     {
         if (n <= 0)
@@ -73,6 +80,14 @@ public class RecursionUtil {
         reverseRecur(chars, 0, str.length() - 1);
 
         return String.valueOf(chars);
+    }
+    public static void writeNumber(int val, int radix)
+    {
+        if (val < 0) {
+            System.out.write('-');
+            val = -val;
+        }
+        writeNumberRecur(val, radix);
     }
     public static void writeReverse(String str)
     {
